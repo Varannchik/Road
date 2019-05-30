@@ -1,9 +1,9 @@
 let btn=document.querySelector('.btn');
     btn.addEventListener('click',function(){             
-        vr=document.querySelector('.road_vertical');
-        gr=document.querySelector('.road_gorizontal');
-        vert=document.querySelectorAll('.vert_svet');        
-        gor=document.querySelectorAll('.gorizont_svet');
+        let vr=document.querySelector('.road_vertical');
+        let gr=document.querySelector('.road_gorizontal');
+        let vert=document.querySelectorAll('.vert_svet');        
+        let gor=document.querySelectorAll('.gorizont_svet');
         if(this.classList.contains('active')){
             vr.style.background = "#00ff00";
             gr.style.background='#df0024';
