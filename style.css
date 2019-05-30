@@ -100,13 +100,13 @@
 }
 
 .wrap .vert_svet_left {
-  top: 130px;
-  left: 175px;
+  top: 0px;
+  left: 80px;
 }
 
 .wrap .vert_svet_right {
-  top: 275px;
-  right: 175px;
+  bottom: 0;
+  right: 80px;
 }
 
 .wrap .gorizont_svet {
@@ -148,11 +148,11 @@
 
 .wrap .gorizont_svet_left {
   top: 275px;
-  left: 137px;
+  left: 0;
 }
 
 .wrap .gorizont_svet_right {
   top: 167px;
-  left: 275px;
+  right: 0;
 }
 /*# sourceMappingURL=style.css.map */
