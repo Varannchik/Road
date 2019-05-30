@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 0 auto;    
+}
+
+.wrap{
+    position: relative;
+    .road_vertical{
+        width: 40px;
+        height: 500px;
+        margin: 0 auto;
+        border: 1px dotted gray;
+        background: #00ff00;
+    }
+    .road_gorizontal{
+        width: 100%;
+        height: 40px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        border: 1px dotted gray;
+        background: #df0024;
+    }
+    .active{
+        background: rebeccapurple;
+    }
+    .btn{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        border: 2px solid rebeccapurple;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        &:hover{
+            color: white;
+            background: rebeccapurple;
+        }
+    }
+    .vert_svet{
+        position: absolute;
+        width: auto;
+        
+        padding: 10px 5px;
+        border: 1px solid black;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .svet_red{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            
+            border: 1px dotted black;
+            margin: 3px; 
+        }
+        .svet_green{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            
+            border: 1px dotted black;
+            margin: 3px; 
+        }
+    }
+    .vert_svet_left{
+        top:130px;
+        left: 175px;
+    }
+    .vert_svet_right{
+        top: 275px;
+        right: 175px;
+    }
+    .gorizont_svet{
+        position: absolute;
+        width: auto;        
+        padding: 10px 5px;
+        border: 1px solid black;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        .svet_red{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            
+            border: 1px dotted black;
+            margin: 3px; 
+        }
+        .svet_green{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            
+            border: 1px dotted black;
+            margin: 3px; 
+        }
+    }
+    .gorizont_svet_left{
+        top: 275px;
+        left: 137px;
+    }
+    .gorizont_svet_right{
+        top: 167px;
+        left: 275px;
+    }
+}
